@@ -1,0 +1,2 @@
+Apa itu git rebase?
+Git rebase mengubah basis feature branch ke commit yang paling baru di main lalu mengulang pengubahannya dari sana, memberikan commit yang clean. Secara jelasnya, git rebase mengubah perubahan dari feature branch ke main branch yang paling baru, sehingga membuat fast forward merge, branchnya disatuin jadi satu garis lurus. Git rebase merapikan commit yang terjadi dengan menyatukan commit ke main branch tip. Kekurangannya jadi mengurangi jejak commit nya. 
